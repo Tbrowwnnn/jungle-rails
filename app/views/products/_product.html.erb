@@ -7,9 +7,18 @@
     </h1>
   <% end%>
   <div>
+  <% if product.quantity > 0 %>
     <%= button_to add_item_cart_path(product_id: product.id), class: 'btn' ,
     method: :post do %>
       <%= fa_icon "shopping-cart", text: 'Add' %> 
     <% end %>
-  </div>
-</article>
+    <% else %> 
+      <div class="soldout">Out of Stock</div>
+      <button class="btn" type="submit" disabled>
+      
+      <%= fa_icon "shopping-cart", text: 'Add' %>
+     
+      </button>
+    <% end %>
+    </div>
+    </article>
