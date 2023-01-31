@@ -27,5 +27,8 @@ describe('be able to login', () => {
     .get("[value='Submit']")
     .click()
 
+    cy
+    .contains("Signed in as")
+
   })
 })
