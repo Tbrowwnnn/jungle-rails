@@ -31,7 +31,4 @@ describe('visit home page', () => {
     .get("[class='nav-item end-0']")
     .contains(" My Cart (1)")
   })
-  
-
-
 })
