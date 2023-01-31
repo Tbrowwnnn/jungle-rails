@@ -6,7 +6,7 @@ class User < ApplicationRecord
   validates :first_name, presence: true
   validates :last_name, presence: true
   validates :password, confirmation: true, length: { minimum: 5 }
-  validates :password_confirmation, presence: true, length: { minimum: 5 }  
+  validates :password_confirmation, presence: true, length: { minimum: 5 } 
   
 
   def self.authenticate_with_credentials(email, password)
