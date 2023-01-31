@@ -13,13 +13,16 @@ describe('be able to login', () => {
     cy.visit('/')
   })
 
-  it("Should add an item to cart when clicked", () => {
+  it("Should allow user to login", () => {
     cy
-    .get("[action='/cart/add_item?product_id=2']")
+    .get("[href='/login']")
     .click()
 
-    cy
-    .get("[class='nav-item end-0']")
-    .contains(" My Cart (1)")
+    .get("[id='email']")
+    .type("darth.vader@deathstar.com")
+
+    .get("[id='password']")
+    .type("Darth")
+
   })
 })
