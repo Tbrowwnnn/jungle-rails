@@ -1,5 +1,3 @@
-{/* <reference types="cypress" /> */}
-
 describe('visit home page', () => {
   // beforeEach(() => {
   //   // Cypress starts out with a blank slate for each test
@@ -20,11 +18,11 @@ describe('visit home page', () => {
   it("There is 2 products on the page", () => {
     cy.get(".products article").should("have.length", 2);
   })
-  it("Should navigate to the product page correctly", () => {
-    cy.get(".products article").should("have.length", 2);
-  })
-  
+  it("should navigate to Products", () => {
+    cy
+      .contains("Giant Tea")
+      .click()
 
+  });
 
 })
-
