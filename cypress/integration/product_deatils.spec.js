@@ -22,7 +22,12 @@ describe('visit home page', () => {
     cy
       .contains("Giant Tea")
       .click()
-
   });
+  // it("should navigate to Products", () => {
+  //   cy
+  //     .go('back')
+  //     .contains("Scented Blade")
+  //     .click()
+  // });
 
 })
