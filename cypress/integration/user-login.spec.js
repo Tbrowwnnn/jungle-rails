@@ -24,5 +24,8 @@ describe('be able to login', () => {
     .get("[id='password']")
     .type("Darth")
 
+    .get("[value='Submit']")
+    .click()
+
   })
 })
