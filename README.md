@@ -1,6 +1,19 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example. It is a clone of website that sells different types of plants. Users can create an account and sign in to purchase different types of plants. Admin can edit different products made available as well as categories. 
+
+## Improvements
+
+-bug fixes such as out of stock badge present preventing user purchase if stock is at 0 quantity and lack of checkout cart if cart is empty as well as prices now displaying correctly.
+-Ordering plants now has a checkout screen displaying items purchased, name, email, and total cost. 
+-About page created and routed. 
+-Admin can create new categories if need be for different kinds of plants as well as add new products to database.
+-Users can now choose to create an account as long as minimum requirements are met such as users requiring a unique name and email. 
+-Passwords are encrypted and emails are not subject to additional spaces or are case sensitive. 
+-User can login to an existing account and name will display in the navigation header with a logout button that allows the user to log out. 
+
+## Screenshots
+
 
 ## Setup
 
@@ -29,3 +42,5 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+
