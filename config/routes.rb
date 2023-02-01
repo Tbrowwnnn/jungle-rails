@@ -15,7 +15,6 @@ Rails.application.routes.draw do
     root to: 'about#about'
   end
 
-
   resource :cart, only: [:show] do
     post   :add_item
     post   :remove_item

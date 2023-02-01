@@ -17,10 +17,11 @@
     <tbody>
     
     <% @order.line_items.each do |item| %>
-     <th> <%= image_tag item.product.image.url, class: 'main-img'%></th>
-     <th> <%= item.product.name %>
-      <p><%= item.product.description %></p></th>
-      <th><%= humanized_money_with_symbol item.total_price_cents / 100.0 %></th>
+     <tr><td> <%= image_tag item.product.image.url, class: 'main-img', width: "100%" %></td>
+     <td> <%= item.product.name %>
+      <p><%= item.product.description %></p></td>
+      <td><%= humanized_money_with_symbol item.total_price_cents / 100.0 %></td> 
+        </tr>
   <% end %>
   <tfoot>
   <tr>
