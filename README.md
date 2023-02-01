@@ -20,6 +20,12 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 
 ## Screenshots
 
+pics/signed-in.PNG
+
+pics/Admin-and-added-cats.PNG
+
+pics/Signup.PNG
+
 
 ## Setup
 
