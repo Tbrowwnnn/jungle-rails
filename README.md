@@ -24,7 +24,7 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 
 !["signup page"](https://github.com/Tbrowwnnn/jungle-rails/blob/master/pics/Signup.PNG)
 
-!["admin add categories"](https://github.com/Tbrowwnnn/jungle-rails/blob/master/pics/signed-in.PNG)
+!["admin add categories"](https://github.com/Tbrowwnnn/jungle-rails/blob/master/pics/Admin-and-added-cats.PNG)
 
 
 ## Setup
